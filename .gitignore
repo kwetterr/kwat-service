@@ -2,9 +2,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node
 
-# Security
-.env
-
 ### macOS ###
 # General
 .DS_Store
