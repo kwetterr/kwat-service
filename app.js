@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 // Routes.
-const routes = require('./Routes/PostsRoutes');
+const routes = require('./routes/PostsRoutes');
 
 // Middleware.
 app.use(express.urlencoded({ extended: true }));
