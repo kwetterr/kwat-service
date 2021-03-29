@@ -1,0 +1,1 @@
+DATABASE=mongodb+srv://admin:<password>@cluster0.pnzkn.mongodb.net/kwetter_db?retryWrites=true&w=majority
