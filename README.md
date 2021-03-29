@@ -1,3 +1,5 @@
+![bagde](https://github.com/kwetterr/kwat-service/actions/workflows/node.js.yml/badge.svg)
+
 # kwat-service
 Retrieves kwats filtered by user, @mentions, trends and personal newsfeed.
 
