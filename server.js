@@ -16,10 +16,10 @@ mongoose.connection.on('error', (err) => {
 })
 
 // Import models globally.
-require('./models/Posts');
+require('./src/models/Posts');
 
 // Serve app.
-const app = require('./app');
+const app = require('./src/app');
 const server = app.listen(3000, () => {
   console.log(`Express running on port: ${server.address().port}`)
 })
