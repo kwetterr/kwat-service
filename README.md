@@ -5,9 +5,6 @@
 # kwat-service
 Retrieves kwats filtered by user, @mentions, trends and personal newsfeed.
 
-Check our Docker organisation:
-- https://hub.docker.com/orgs/kwetterr
-
 ## Run
 ```zsh
 node server.js
