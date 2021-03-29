@@ -1,5 +1,5 @@
-[![Publish Docker image](https://github.com/kwetterr/kwat-service/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/kwetterr/kwat-service/actions/workflows/docker-publish.yml)
 
+![bagde](https://github.com/kwetterr/kwat-service/actions/workflows/build.yml/badge.svg)
 # kwat-service
 Retrieves kwats filtered by user, @mentions, trends and personal newsfeed.
 
