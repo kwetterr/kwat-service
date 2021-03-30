@@ -22,5 +22,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: kwetterr/kwat-service
+          repository: kwetterr/kwat-service/kwat-service
           tag_with_ref: true
