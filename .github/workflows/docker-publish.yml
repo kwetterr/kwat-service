@@ -16,11 +16,11 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: kwetterr/kwat-service
           tag_with_ref: true
-      # - name: Push to GitHub Packages
-      #   uses: docker/build-push-action@v1
-      #   with:
-      #     username: ${{ github.actor }}
-      #     password: ${{ secrets.GITHUB_TOKEN }}
-      #     registry: docker.pkg.github.com
-      #     repository: kwetterr/kwat-service/my-image
-      #     tag_with_ref: true
+      - name: Push to GitHub Packages
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: kwetterr/kwat-service
+          tag_with_ref: true
