@@ -5,9 +5,9 @@ name: Build
 
 on:
   push:
-    # branches: [ master ]
+    branches: [ dontbuild ]
   pull_request:
-    branches: [ master ]
+    branches: [ dontbuild ]
 
 jobs:
   build_and_test:
