@@ -1,4 +1,4 @@
-
+[![CodeQL](https://github.com/kwetterr/kwat-service/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/kwetterr/kwat-service/actions/workflows/codeql-analysis.yml)
 ![bagde](https://github.com/kwetterr/kwat-service/actions/workflows/build.yml/badge.svg)
 ![bagde](https://github.com/kwetterr/kwat-service/actions/workflows/docker-publish.yml/badge.svg)
 
