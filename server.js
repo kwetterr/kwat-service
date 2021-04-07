@@ -17,6 +17,7 @@ mongoose.connection.on('error', (err) => {
 
 // Import models globally.
 require('./src/models/Posts');
+require('./src/models/Kwats');
 
 // Serve app.
 const app = require('./src/app');
